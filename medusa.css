@@ -1,0 +1,23 @@
+/* reset default CSS styling to give full freedom*/
+@import url('https://Medusa.stringentdev.repl.co/normalise.css');
+@import url('./theme.css');
+@import url('https://Medusa.stringentdev.repl.co/components/navigation/topbar.css');
+@import url('https://Medusa.stringentdev.repl.co/components/content/card.css');
+@import url('https://Medusa.stringentdev.repl.co/components/content/button.css');
+@import url('https://Medusa.stringentdev.repl.co/components/interaction/shadow.css');
+@import url('https://Medusa.stringentdev.repl.co/components/interaction/ripple.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+	font-family: 'Roboto', sans-serif;
+}
+
+*:focus { outline: none; }
+
+body {
+	padding-top: 55px;
+	padding-left: 2em;
+	padding-right: 2em; 
+	background: rgba(175, 175, 175, 0.1);
+}

@@ -1,0 +1,53 @@
+nav.topbar{
+	/* define position */
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+	/* set size of nav to full length and 55px height*/
+	width: 100vw;
+	height: 55px;
+	background: var(--theme-navbar-color);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	
+	/* Hopefully a shadow popup when scrolling soon */
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0, 0.2);
+	overflow: hidden;
+}
+
+/* sub-components */
+
+nav.topbar > div.link { 
+	/* Define links position type*/
+	display: inline-block; 
+	vertical-align: middle;
+	
+	/* manual vertical align in navbar */
+	line-height: 55px;
+	
+	/* define color */
+	color: var(--theme-navbar-links);
+}
+
+nav.topbar > div.link > a {
+	margin-left: 15px;
+	text-decoration: none;
+	color: var(--theme-navbar-links); 
+}
+
+nav.topbar > div.link > img {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	transform: translateY(-50%);
+	margin-left: 10px;
+	height: 50px;
+}
+
+/* options */
+nav.topbar.square{
+	width: 100vw;
+	height: 55px;
+	border-radius: 0px;
+}

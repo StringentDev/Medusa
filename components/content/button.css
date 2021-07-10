@@ -1,0 +1,24 @@
+button.important:enabled {
+	background: var(--primary-accent-2);
+	color: var(--primary-accent-A);
+	border: none;
+	
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 10px -3px rgba(0,0,0,1);
+}
+
+button.important:enabled:hover:active {
+	transform: scale(0.975);
+	
+	box-shadow: 0px 0px 6px -3px rgba(0,0,0,1);
+}
+
+button {
+	overflow: hidden;
+	position: relative;
+}
+
+button:enabled:hover:active {
+	transition: all 0.2s;
+}
